@@ -5,9 +5,8 @@ ruby '2.3.7'
 
 gem 'awesome_print', require: false
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'strong_parameters'
 gem "pundit", '~>2.0.0'
-gem 'devise', '~> 4.5'
+gem 'sorcery'
 gem 'secure_headers'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
